@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap YouTube</title>
+
+    <!-- Add Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Add Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Add Custom CSS link -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-dark-subtle">
+    <!-- Carousel -->
+    <div id="hiteshCarousel" class="carousel slide mb-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hiteshCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hiteshCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hiteshCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/chai-aur-code.jpg" class="d-block w-100 carousel-image rounded" alt="chai-aur-code-image">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Chai aur Code</h5>
+              <p>A channel dedicated to chai and coding in HINDI.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/hiteshchoudhary.jpg" class="d-block w-100 carousel-image" alt="hitesh-chaudhary-image">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Hitesh Chaudhary</h5>
+              <p>A popular destination for learning programming and technology skills.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/hitesh-discord.jpg" class="d-block w-100 carousel-image" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Hitesh's Discord Channel</h5>
+              <p>A vibrant community where programmers, developers, and tech enthusiasts collaborate, share knowledge, and learn from each other.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hiteshCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hiteshCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards -->
+     <div class="container-fluid px-3">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <!-- Card 1 -->
+
+          <div class="card h-100">
+            <!-- YT Video Thumbnail -->
+            <img src="./images/sdk-video-2.jpg" class="card-img-top" alt="sdk video thumbnail">
+
+            <!-- Card Content -->
+            <div class="card-body">
+
+              <!-- Title -->
+              <h5 class="card-title">Publish your SDK</h5>
+
+              <!-- About -->
+              <p class="card-text">This video is about how to use Stainless API to generate SDKs for your backend projects.</p>
+
+              <!-- YouTube Button -->
+              <div class="d-grid gap-2 d-md-block">
+                <button id="sdkButton" class="btn btn-outline-danger d-flex align-items-center justify-content-center" type="button">
+                  <i class="bi bi-youtube" style="font-size: 1.5rem;position: relative;margin-right: 11px; top: 1px;"></i>
+                  Watch on YouTube
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/course-launch-video.jpg" class="card-img-top" alt="course launch video thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Web Dev course launch</h5>
+              <p class="card-text">This video is an announcement about a new web development course on Udemy.</p>
+              <div class="d-grid gap-2 d-md-block">
+                <button id="courseButton" class="btn btn-outline-danger d-flex align-items-center justify-content-center" type="button">
+                  <i class="bi bi-youtube" style="font-size: 1.5rem;position: relative;margin-right: 11px; top: 1px;"></i>
+                  Watch on YouTube
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/editors-video.jpg" class="card-img-top" alt="code editors video thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Exploring Code Editors</h5>
+              <p class="card-text">This video is about the evolution of code editors and the emergence of paid editors.</p>
+              <div class="d-grid gap-2 d-md-block">
+                <button id="editorButton" class="btn btn-outline-danger d-flex align-items-center justify-content-center" type="button">
+                  <i class="bi bi-youtube" style="font-size: 1.5rem;position: relative;margin-right: 11px; top: 1px;"></i>
+                  Watch on YouTube
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/backend-video.jpg" class="card-img-top" alt="backend video thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Backend Application Security</h5>
+              <p class="card-text">This video talks about building security for backend applications.</p>
+              <div class="d-grid gap-2 d-md-block">
+                <button id="backendButton" class="btn btn-outline-danger d-flex align-items-center justify-content-center" type="button">
+                  <i class="bi bi-youtube" style="font-size: 1.5rem;position: relative;margin-right: 11px; top: 1px;"></i>
+                  Watch on YouTube
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <!-- Footer -->
+     <footer class="footer mt-5 py-3 bg-secondary text-white text-center" style="border-top: 2px solid black;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-2">
+            <p class="mb-0">&copy; 2025</p>
+          </div>
+          <div class="col-sm-3">
+            <p class="mb-0">Mrinal Sood</p>
+          </div>
+        </div>
+      </div>
+     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script>
+      // Add links to the Buttons of each card to 
+      // direct to their respective youtobe videos
+
+      // YT Link of 1st Card
+      document.getElementById('sdkButton').addEventListener('click', function () {
+        window.open('https://youtu.be/dbETZr45ki8?si=oQTwZ2SGvy6nw4kW', '_blank');
+      });
+
+      // YT Link of 2nd Card
+      document.getElementById('courseButton').addEventListener('click', function () {
+        window.open('https://youtu.be/KZ31wDjYleI?si=gED7-8C5xmWqJyhM', '_blank')
+      });
+
+      // YT Link of 3rd Card
+      document.getElementById('editorButton').addEventListener('click', function () {
+        window.open('https://youtu.be/l0kxjSo67oc?si=oF1hz8B4OmRHVvIa', '_blank')
+      });
+
+      // YT Link of 4th Card
+      document.getElementById('backendButton').addEventListener('click', function () {
+        window.open('https://youtu.be/ZntaiuLmyBk?si=6_a5OTZZz5dWn62c', '_blank')
+      });
+    </script>
+  </body>
+</html>

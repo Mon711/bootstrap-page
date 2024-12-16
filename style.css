@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+}
+
+#hiteshCarousel {
+    height: 70vh; /* Adjust this value as needed */
+    width: 100%;
+    padding: 10px;
+}
+
+/* Both .carousel-inner and .carousel-item are set to 100% height to ensure they fill the height of the carousel. */
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-image {
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    opacity: 0.8;
+}
+
+.carousel-indicators .active {
+    color: red; /* Change to your desired color */
+}
