@@ -4,7 +4,7 @@
 ## Overview
 -----------
 
-This project is a simple web page built using Bootstrap, showcasing a carousel and cards with YouTube video links.
+This project is a simple web page built using Bootstrap, showcasing a carousel and cards with YouTube video links. GitHub Pages link: https://mon711.github.io/bootstrap-page/
 
 ## Features
 ------------
